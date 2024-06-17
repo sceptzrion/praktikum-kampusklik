@@ -1,0 +1,123 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page {
+    margin: 10px;
+    border: 3px groove white;
+    background-color: black;
+}
+
+.page a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+    background-color: #201658;
+    border: 2px solid #DDDDDD;
+    margin-bottom: 1px;
+}
+
+.header a {
+    color: white;
+    font-family: Courier;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.badan {
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1D24CA;
+    padding: 30px 0px 150px 30px;
+    width: 25%;
+    border: 2px solid #B4B4B8;
+    margin: 1px;
+    color: white;
+    /* padding: 30px; */
+}
+
+.judul {
+    letter-spacing: 2;
+    margin-bottom: 15px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    color: #F9E8C9;
+    font-weight: bold;
+}
+
+.isi {
+    background-color: #98ABEE;
+    padding: 0px 25px 150px 25px;
+    width: 75%;
+    border: 2px solid #B4B4B8;
+    margin: 1px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.gambar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.isi p {
+    text-align: justify;
+}
+
+.list p {
+    text-align: justify;
+}
+
+.list a:hover {
+    color: #1D24CA;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 10px 0px;
+    background-color: #201658;
+    border: 2px solid #DDDDDD;
+    margin-bottom: 1px;
+}
+
+.footer a {
+    color: white;
+    font-size: 15px;
+    font-weight: 250;
+}
