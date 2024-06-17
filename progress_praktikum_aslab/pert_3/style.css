@@ -1,0 +1,39 @@
+body {
+  background-color: #99BC85;
+}
+
+.text {
+  padding-left: 15px;
+  text-align: justify;
+  padding-right: 25px;
+  font-family: "Poppins"
+}
+
+.text h2 {
+    font-weight: 700;
+    font-style: normal;
+  }
+
+.text p {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.div-parent {
+  padding: 50px 0 50px 50px;
+  justify-content: center;
+  display: flex;
+}
+
+.div-child {
+  background-color: #D4E7C5;
+  border-radius: 25px;
+  width: 60%;
+  display: flex;
+}
+
+.gambar {
+  width: 275px;
+  height: 200px;
+  border-radius: 25px;
+}

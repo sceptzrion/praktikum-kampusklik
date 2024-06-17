@@ -1,0 +1,30 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #A5DD9B;
+}
+
+.judul-pertama {
+    text-align: center;
+    letter-spacing: 7px;
+}
+
+.gambar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    width: 240px;
+    height: 260px;
+}
+
+.judul-kedua {
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 3px;
+}
